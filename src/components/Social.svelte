@@ -1,17 +1,18 @@
 <script lang="ts">
-    import SocialIncon from "./SocialIcon.svelte";
+    import SocialButton from "./SocialButton.svelte";
 </script>
 
 <div class="flex items-center justify-between my-4">
-    <a
-        class="px-4 fill-white hover:fill-black transition-all !duration-300"
-        href="https://github.com/vinceyyy"
-    >
-        <SocialIncon name="github" width="2em" height="2em" />
-    </a>
-    <a
-        class="px-4 fill-white hover:fill-black transition-all !duration-300"
-        href="https://www.linkedin.com/in/vincentwyan/"
-        ><SocialIncon name="linkedin" width="2em" height="2em" />
-    </a>
+    <SocialButton
+        name="github"
+        link="https://github.com/vinceyyy"
+        width="2em"
+        height="2em"
+    />
+    <SocialButton
+        name="linkedin"
+        link="https://www.linkedin.com/in/vincentwyan/"
+        width="2em"
+        height="2em"
+    />
 </div>
