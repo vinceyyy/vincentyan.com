@@ -3,7 +3,7 @@
     const t = Array.from(tags.entries());
 </script>
 
-<div class="flex items-center justify-between ">
+<div class="flex items-center justify-between cursor-default">
     {#each t as [index, tag]}
         {#if index !== 0}
             <div class="h-2 border-l-2" />
