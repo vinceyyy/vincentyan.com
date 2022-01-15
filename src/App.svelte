@@ -1,9 +1,6 @@
 <script lang="ts">
     import Tag from "./components/Tag.svelte";
     import Social from "./components/Social.svelte";
-    import { onMount } from "svelte";
-
-    let heroVideo;
 </script>
 
 <main
@@ -21,13 +18,6 @@
         </div>
     </div>
     <div class="video-container absolute -z-1">
-        <video
-            src="./movie.webm"
-            autoplay
-            loop
-            muted
-            playsinline
-            bind:this={heroVideo}
-        />
+        <video src="./movie.webm" autoplay loop muted playsinline />
     </div>
 </main>
