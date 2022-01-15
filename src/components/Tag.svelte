@@ -8,7 +8,9 @@
         {#if index !== 0}
             <div class="h-2 border-l-2" />
         {/if}
-        <p class="mx-8 mb-0.5 font-bold hover:font-extrabold duration-150">
+        <p
+            class="mx-8 mb-0.5 font-bold hover:text-black transition-all duration-300"
+        >
             {tag}
         </p>
     {/each}
